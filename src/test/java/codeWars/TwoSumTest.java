@@ -12,7 +12,7 @@ public class TwoSumTest {
     public void basicTests()
     {
        // doTest(new int[]{1,2,3},          new int[]{0,2});
-       // doTest(new int[]{1234,5678,9012}, new int[]{1,2});
+        //doTest(new int[]{1234,5678,9012}, new int[]{1,2});
         doTest(new int[]{2,2,3},          new int[]{0,1});
     }
     private void doTest(int[] numbers, int[] expected)

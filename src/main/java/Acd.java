@@ -2,15 +2,18 @@
 public class Acd {
 
     public static void main(String[] args) {
-       int n = 4561;
-        int sum = 0;
+            // write your code in Java SE 8
 
-        while(n > 9){
-            n = n/10 + n % 10;
-        }
+           int A[] = {9, 7, 3, 9, 3, 9, 9, };
 
-        System.out.println(n);
-    }
+            int unpaired;
+            unpaired = A[0]; // initial
+
+            for(int i=1; i< A.length; i++){
+                unpaired = unpaired ^ A[i]; // xor
+            }
+
+        System.out.println(unpaired);        }
 
 
 
