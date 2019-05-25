@@ -9,8 +9,8 @@ public class ArrayReverser {
     public static void main(String[] args) {
 
         String[] abc = {"I", "like", "big", "butts", "and", "I", "cannot", "lie!"};
-String result = "";
-        for(int a = 0; a < abc.length; a++){
+        String result = "";
+        for (int a = 0; a < abc.length; a++) {
             result = new StringBuilder().append(a).reverse().toString();
         }
 
